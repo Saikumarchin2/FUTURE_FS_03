@@ -1,0 +1,35 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+/* styles.css or in global styles */
+.nav-button {
+  color: black;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.nav-button.active {
+  color: #1976d2; /* MUI primary blue */
+  font-weight: bold;
+  border-bottom: 2px solid #1976d2;
+}
+html {
+  scroll-behavior: smooth;
+}
+html {
+  scroll-padding-top: 80px; /* height of AppBar */
+}
+.drawer-link.active {
+  color: #7b2cbf; /* Use theme color */
+  font-weight: bold;
+}

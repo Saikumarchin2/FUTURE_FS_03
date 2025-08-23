@@ -1,0 +1,35 @@
+[
+  {
+    "title": "Toxic Comments Classifier",
+    "description": "\u2022 Developed a classification model to categorize comments into toxic, severe toxic, and obscene labels using Python and NLP techniques.\n\u2022 Utilized Scikit-learn for implementing machine learning algorithms and vectorization for feature extraction from the text data.\n\u2022 Integrated web tools for a seamless user interface.",
+    "image": "toxic",
+    "keySkills": [
+      "Python",
+      "HTML",
+      "CSS",
+      "JavaScript"
+    ]
+  },
+  {
+    "title": "Effect of Climate Change on Birds",
+    "description": "\u2022 Designed a regression model to forecast bird population trends based on climate factors such as temperature and precipitation.\n\u2022 Utilized machine learning algorithms to analyze the effect of climate change on different bird species.",
+    "image": "bird",
+    "keySkills": [
+      "Python",
+      "NumPy",
+      "Pandas",
+      "Machine Learning",
+      "Data Analysis"
+    ]
+  },
+  {
+    "title": "AgriBot-(Agricultural Robot)",
+    "description": "This project is an IoT-based automated agricultural system with a robotic vehicle. It performs tasks like seeding, weeding, and soil moisture monitoring using an Arduino and various sensors. The entire system is controlled remotely via a mobile application.",
+    "image": "AgriBot",
+    "keySkills": [
+      "IoT",
+      "Multi-tasking",
+      "Mobile Application Development"
+    ]
+  }
+]
