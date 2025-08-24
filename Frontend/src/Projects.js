@@ -22,7 +22,7 @@ const Projects = () => {
   useEffect(() => {
     const fetchProjects = async () => {
       try {
-        const response = await fetch(`${API_BASE}/api/projects`);
+        const response = await fetch(`${API_URL}/api/projects`);
         const data = await response.json();
         setProjects(data);
       } catch (err) {
@@ -93,7 +93,7 @@ const Projects = () => {
             >
               <CardMedia
                 component="img"
-                image={`${API_BASE}/uploads/${project.image}`} // backend sends image path or URL
+                image={`${API_URL}/uploads/${project.image}`} // backend sends image path or URL
                 alt={project.title}
                 sx={{
                   objectFit: "contain",
