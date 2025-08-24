@@ -22,7 +22,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
 import { useState } from 'react';
 import Snackbar from "@mui/material/Snackbar";
 import MuiAlert from "@mui/material/Alert";
-const API_URL = process.env.REACT_APP_API_URL || "http://localhost:5000";
+const API_URL = process.env.REACT_APP_API_URL || "https://future-fs-03-wtwi.onrender.com";
 export default function Contact() {
   const [name, setName] = useState('');
   const [mail, setMail] = useState('');

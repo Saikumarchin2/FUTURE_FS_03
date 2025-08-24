@@ -11,7 +11,7 @@ import { Navigation } from "swiper/modules";
 import "swiper/css";
 import "swiper/css/navigation";
 import ProjectDialog from "./ProjectsOverview.js"; // popup dialog
-const API_BASE = process.env.REACT_APP_API_URL || "http://localhost:5000"
+const API_URL = process.env.REACT_APP_API_URL || "https://future-fs-03-wtwi.onrender.com";
 const Projects = () => {
   const [projects, setProjects] = useState([]);
   const [loading, setLoading] = useState(true);
