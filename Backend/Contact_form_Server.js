@@ -59,8 +59,9 @@ router.post("/", async (req, res) => {
         <p>Thank you for getting in touch through my portfolio website. 
         I’ve received your message and will get back to you shortly.</p>
         <p>Meanwhile, feel free to explore my work and projects:</p>
-        <p>🌐<a href="https://your-portfolio.netlify.app" target="_blank">My Portfolio</a></p>
+        <p>🌐<a href="https://skyportfoliograb.netlify.app/" target="_blank">My Portfolio</a></p>
         <br/>
+        <p>Looking forward to connecting with you!</p>
         <p>Best regards,<br/><b>Saikumar Mukkamula</b><br/>Developer | Data Science Enthusiast</p>
         `,
     });
