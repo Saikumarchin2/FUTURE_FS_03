@@ -93,7 +93,7 @@ const Projects = () => {
             >
               <CardMedia
                 component="img"
-                image={`${API_URL}${project.image}`} // backend sends image path or URL
+                image={project.image} // backend sends image path or URL
                 alt={project.title}
                 sx={{
                   objectFit: "contain",
